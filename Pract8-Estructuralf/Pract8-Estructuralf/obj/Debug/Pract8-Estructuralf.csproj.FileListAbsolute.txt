@@ -1,0 +1,10 @@
+C:\Users\romel\source\repos\Pract8-Estructuralf\Pract8-Estructuralf\bin\Debug\Pract8-Estructuralf.exe.config
+C:\Users\romel\source\repos\Pract8-Estructuralf\Pract8-Estructuralf\bin\Debug\Pract8-Estructuralf.exe
+C:\Users\romel\source\repos\Pract8-Estructuralf\Pract8-Estructuralf\bin\Debug\Pract8-Estructuralf.pdb
+C:\Users\romel\source\repos\Pract8-Estructuralf\Pract8-Estructuralf\obj\Debug\Pract8-Estructuralf.csproj.AssemblyReference.cache
+C:\Users\romel\source\repos\Pract8-Estructuralf\Pract8-Estructuralf\obj\Debug\Pract8_Estructuralf.Form1.resources
+C:\Users\romel\source\repos\Pract8-Estructuralf\Pract8-Estructuralf\obj\Debug\Pract8_Estructuralf.Properties.Resources.resources
+C:\Users\romel\source\repos\Pract8-Estructuralf\Pract8-Estructuralf\obj\Debug\Pract8-Estructuralf.csproj.GenerateResource.cache
+C:\Users\romel\source\repos\Pract8-Estructuralf\Pract8-Estructuralf\obj\Debug\Pract8-Estructuralf.csproj.CoreCompileInputs.cache
+C:\Users\romel\source\repos\Pract8-Estructuralf\Pract8-Estructuralf\obj\Debug\Pract8-Estructuralf.exe
+C:\Users\romel\source\repos\Pract8-Estructuralf\Pract8-Estructuralf\obj\Debug\Pract8-Estructuralf.pdb
