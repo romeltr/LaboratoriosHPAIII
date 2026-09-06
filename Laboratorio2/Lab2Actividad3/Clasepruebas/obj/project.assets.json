@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\romel\\source\\repos\\LabActividad3\\Clasepruebas\\Clasepruebas.csproj",
+      "projectUniqueName": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio2\\Lab2Actividad3\\Clasepruebas\\Clasepruebas.csproj",
       "projectName": "Clasepruebas",
-      "projectPath": "C:\\Users\\romel\\source\\repos\\LabActividad3\\Clasepruebas\\Clasepruebas.csproj",
+      "projectPath": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio2\\Lab2Actividad3\\Clasepruebas\\Clasepruebas.csproj",
       "packagesPath": "C:\\Users\\romel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\romel\\source\\repos\\LabActividad3\\Clasepruebas\\obj\\",
+      "outputPath": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio2\\Lab2Actividad3\\Clasepruebas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\romel\\AppData\\Roaming\\NuGet\\NuGet.Config",
