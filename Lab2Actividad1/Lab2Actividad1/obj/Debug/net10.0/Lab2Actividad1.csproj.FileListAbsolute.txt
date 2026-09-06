@@ -1,0 +1,15 @@
+C:\Users\romel\source\repos\Lab2Actividad1\Lab2Actividad1\bin\Debug\net10.0\Lab2Actividad1.exe
+C:\Users\romel\source\repos\Lab2Actividad1\Lab2Actividad1\bin\Debug\net10.0\Lab2Actividad1.deps.json
+C:\Users\romel\source\repos\Lab2Actividad1\Lab2Actividad1\bin\Debug\net10.0\Lab2Actividad1.runtimeconfig.json
+C:\Users\romel\source\repos\Lab2Actividad1\Lab2Actividad1\bin\Debug\net10.0\Lab2Actividad1.dll
+C:\Users\romel\source\repos\Lab2Actividad1\Lab2Actividad1\bin\Debug\net10.0\Lab2Actividad1.pdb
+C:\Users\romel\source\repos\Lab2Actividad1\Lab2Actividad1\obj\Debug\net10.0\Lab2Actividad1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romel\source\repos\Lab2Actividad1\Lab2Actividad1\obj\Debug\net10.0\Lab2Actividad1.AssemblyInfoInputs.cache
+C:\Users\romel\source\repos\Lab2Actividad1\Lab2Actividad1\obj\Debug\net10.0\Lab2Actividad1.AssemblyInfo.cs
+C:\Users\romel\source\repos\Lab2Actividad1\Lab2Actividad1\obj\Debug\net10.0\Lab2Actividad1.csproj.CoreCompileInputs.cache
+C:\Users\romel\source\repos\Lab2Actividad1\Lab2Actividad1\obj\Debug\net10.0\Lab2Actividad1.dll
+C:\Users\romel\source\repos\Lab2Actividad1\Lab2Actividad1\obj\Debug\net10.0\refint\Lab2Actividad1.dll
+C:\Users\romel\source\repos\Lab2Actividad1\Lab2Actividad1\obj\Debug\net10.0\Lab2Actividad1.pdb
+C:\Users\romel\source\repos\Lab2Actividad1\Lab2Actividad1\obj\Debug\net10.0\Lab2Actividad1.genruntimeconfig.cache
+C:\Users\romel\source\repos\Lab2Actividad1\Lab2Actividad1\obj\Debug\net10.0\ref\Lab2Actividad1.dll
+C:\Users\romel\source\repos\Lab2Actividad1\Lab2Actividad1\obj\Debug\net10.0\Lab2Acti.EBA6515F.Up2Date

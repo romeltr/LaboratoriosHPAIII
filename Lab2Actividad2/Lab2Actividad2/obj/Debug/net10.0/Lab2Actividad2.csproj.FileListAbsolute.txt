@@ -1,0 +1,15 @@
+C:\Users\romel\source\repos\Lab2Actividad2\Lab2Actividad2\bin\Debug\net10.0\Lab2Actividad2.exe
+C:\Users\romel\source\repos\Lab2Actividad2\Lab2Actividad2\bin\Debug\net10.0\Lab2Actividad2.deps.json
+C:\Users\romel\source\repos\Lab2Actividad2\Lab2Actividad2\bin\Debug\net10.0\Lab2Actividad2.runtimeconfig.json
+C:\Users\romel\source\repos\Lab2Actividad2\Lab2Actividad2\bin\Debug\net10.0\Lab2Actividad2.dll
+C:\Users\romel\source\repos\Lab2Actividad2\Lab2Actividad2\bin\Debug\net10.0\Lab2Actividad2.pdb
+C:\Users\romel\source\repos\Lab2Actividad2\Lab2Actividad2\obj\Debug\net10.0\Lab2Actividad2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romel\source\repos\Lab2Actividad2\Lab2Actividad2\obj\Debug\net10.0\Lab2Actividad2.AssemblyInfoInputs.cache
+C:\Users\romel\source\repos\Lab2Actividad2\Lab2Actividad2\obj\Debug\net10.0\Lab2Actividad2.AssemblyInfo.cs
+C:\Users\romel\source\repos\Lab2Actividad2\Lab2Actividad2\obj\Debug\net10.0\Lab2Actividad2.csproj.CoreCompileInputs.cache
+C:\Users\romel\source\repos\Lab2Actividad2\Lab2Actividad2\obj\Debug\net10.0\Lab2Actividad2.dll
+C:\Users\romel\source\repos\Lab2Actividad2\Lab2Actividad2\obj\Debug\net10.0\refint\Lab2Actividad2.dll
+C:\Users\romel\source\repos\Lab2Actividad2\Lab2Actividad2\obj\Debug\net10.0\Lab2Actividad2.pdb
+C:\Users\romel\source\repos\Lab2Actividad2\Lab2Actividad2\obj\Debug\net10.0\Lab2Actividad2.genruntimeconfig.cache
+C:\Users\romel\source\repos\Lab2Actividad2\Lab2Actividad2\obj\Debug\net10.0\ref\Lab2Actividad2.dll
+C:\Users\romel\source\repos\Lab2Actividad2\Lab2Actividad2\obj\Debug\net10.0\Lab2Acti.08A7515F.Up2Date
