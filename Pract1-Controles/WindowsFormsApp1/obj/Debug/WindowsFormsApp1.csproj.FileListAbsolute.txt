@@ -8,3 +8,6 @@ C:\Users\romel\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsF
 C:\Users\romel\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\romel\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\romel\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\romel\source\repos\Pract1-Controles\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\romel\source\repos\Pract1-Controles\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\romel\source\repos\Pract1-Controles\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
