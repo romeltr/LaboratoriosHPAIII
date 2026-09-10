@@ -16,3 +16,10 @@
 ### 💻 Tecnologías
 - C#, Froms.NET framework
 Autor: Rómel Tadeo Rodríguez González
+
+### Imagenes de los resultados
+Pract1_Controles
+<img width="747" height="362" alt="image" src="https://github.com/user-attachments/assets/6ad38b3d-0d08-4027-8f0a-4b0472fb3fbe" />
+
+Pract2_Descuentos
+
