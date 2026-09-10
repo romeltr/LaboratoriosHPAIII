@@ -1,0 +1,15 @@
+C:\Users\romel\source\repos\EjemploWhile\EjemploWhile\bin\Debug\net10.0\EjemploWhile.exe
+C:\Users\romel\source\repos\EjemploWhile\EjemploWhile\bin\Debug\net10.0\EjemploWhile.deps.json
+C:\Users\romel\source\repos\EjemploWhile\EjemploWhile\bin\Debug\net10.0\EjemploWhile.runtimeconfig.json
+C:\Users\romel\source\repos\EjemploWhile\EjemploWhile\bin\Debug\net10.0\EjemploWhile.dll
+C:\Users\romel\source\repos\EjemploWhile\EjemploWhile\bin\Debug\net10.0\EjemploWhile.pdb
+C:\Users\romel\source\repos\EjemploWhile\EjemploWhile\obj\Debug\net10.0\EjemploWhile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romel\source\repos\EjemploWhile\EjemploWhile\obj\Debug\net10.0\EjemploWhile.AssemblyInfoInputs.cache
+C:\Users\romel\source\repos\EjemploWhile\EjemploWhile\obj\Debug\net10.0\EjemploWhile.AssemblyInfo.cs
+C:\Users\romel\source\repos\EjemploWhile\EjemploWhile\obj\Debug\net10.0\EjemploWhile.csproj.CoreCompileInputs.cache
+C:\Users\romel\source\repos\EjemploWhile\EjemploWhile\obj\Debug\net10.0\EjemploWhile.dll
+C:\Users\romel\source\repos\EjemploWhile\EjemploWhile\obj\Debug\net10.0\refint\EjemploWhile.dll
+C:\Users\romel\source\repos\EjemploWhile\EjemploWhile\obj\Debug\net10.0\EjemploWhile.pdb
+C:\Users\romel\source\repos\EjemploWhile\EjemploWhile\obj\Debug\net10.0\EjemploWhile.genruntimeconfig.cache
+C:\Users\romel\source\repos\EjemploWhile\EjemploWhile\obj\Debug\net10.0\ref\EjemploWhile.dll
+C:\Users\romel\source\repos\EjemploWhile\EjemploWhile\obj\Debug\net10.0\EjemploW.B41217FC.Up2Date

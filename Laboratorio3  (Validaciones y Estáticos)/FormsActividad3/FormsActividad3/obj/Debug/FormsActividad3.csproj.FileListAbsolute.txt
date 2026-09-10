@@ -1,0 +1,10 @@
+C:\Users\romel\source\repos\FormsActividad3\FormsActividad3\bin\Debug\FormsActividad3.exe.config
+C:\Users\romel\source\repos\FormsActividad3\FormsActividad3\bin\Debug\FormsActividad3.exe
+C:\Users\romel\source\repos\FormsActividad3\FormsActividad3\bin\Debug\FormsActividad3.pdb
+C:\Users\romel\source\repos\FormsActividad3\FormsActividad3\obj\Debug\FormsActividad3.csproj.AssemblyReference.cache
+C:\Users\romel\source\repos\FormsActividad3\FormsActividad3\obj\Debug\FormsActividad3.Form2.resources
+C:\Users\romel\source\repos\FormsActividad3\FormsActividad3\obj\Debug\FormsActividad3.Properties.Resources.resources
+C:\Users\romel\source\repos\FormsActividad3\FormsActividad3\obj\Debug\FormsActividad3.csproj.GenerateResource.cache
+C:\Users\romel\source\repos\FormsActividad3\FormsActividad3\obj\Debug\FormsActividad3.csproj.CoreCompileInputs.cache
+C:\Users\romel\source\repos\FormsActividad3\FormsActividad3\obj\Debug\FormsActividad3.exe
+C:\Users\romel\source\repos\FormsActividad3\FormsActividad3\obj\Debug\FormsActividad3.pdb

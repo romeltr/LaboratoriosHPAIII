@@ -1,0 +1,15 @@
+C:\Users\romel\source\repos\JuegodeCraps\JuegodeCraps\bin\Debug\net10.0\JuegodeCraps.exe
+C:\Users\romel\source\repos\JuegodeCraps\JuegodeCraps\bin\Debug\net10.0\JuegodeCraps.deps.json
+C:\Users\romel\source\repos\JuegodeCraps\JuegodeCraps\bin\Debug\net10.0\JuegodeCraps.runtimeconfig.json
+C:\Users\romel\source\repos\JuegodeCraps\JuegodeCraps\bin\Debug\net10.0\JuegodeCraps.dll
+C:\Users\romel\source\repos\JuegodeCraps\JuegodeCraps\bin\Debug\net10.0\JuegodeCraps.pdb
+C:\Users\romel\source\repos\JuegodeCraps\JuegodeCraps\obj\Debug\net10.0\JuegodeCraps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romel\source\repos\JuegodeCraps\JuegodeCraps\obj\Debug\net10.0\JuegodeCraps.AssemblyInfoInputs.cache
+C:\Users\romel\source\repos\JuegodeCraps\JuegodeCraps\obj\Debug\net10.0\JuegodeCraps.AssemblyInfo.cs
+C:\Users\romel\source\repos\JuegodeCraps\JuegodeCraps\obj\Debug\net10.0\JuegodeCraps.csproj.CoreCompileInputs.cache
+C:\Users\romel\source\repos\JuegodeCraps\JuegodeCraps\obj\Debug\net10.0\JuegodeCraps.dll
+C:\Users\romel\source\repos\JuegodeCraps\JuegodeCraps\obj\Debug\net10.0\refint\JuegodeCraps.dll
+C:\Users\romel\source\repos\JuegodeCraps\JuegodeCraps\obj\Debug\net10.0\JuegodeCraps.pdb
+C:\Users\romel\source\repos\JuegodeCraps\JuegodeCraps\obj\Debug\net10.0\JuegodeCraps.genruntimeconfig.cache
+C:\Users\romel\source\repos\JuegodeCraps\JuegodeCraps\obj\Debug\net10.0\ref\JuegodeCraps.dll
+C:\Users\romel\source\repos\JuegodeCraps\JuegodeCraps\obj\Debug\net10.0\JuegodeC.D2CEC374.Up2Date
