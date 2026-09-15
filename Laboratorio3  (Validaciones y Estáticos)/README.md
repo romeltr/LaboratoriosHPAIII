@@ -1,7 +1,7 @@
-#🔎 Laboratorio #3
+# 🔎 Laboratorio #3
 ** 🗓️ Fecha:** 14/09/2026
 
-##📖 Contenido del repositorio
+## 📖 Contenido del repositorio
 Prograqmación con validaciones en la entrada de los usuarios.
 
 EjemploGrid: Formulario que permite validar datos de entrada y registrarlos.
@@ -10,10 +10,10 @@ FormsActividad3: Formulario capaz de abrir otro formulario.
 
 JuegodeCraps: Utiliza funciones random para imiatr el juegodeCraps.
 
-##💻 Tecnologías
+## 💻 Tecnologías
 C#, Froms.NET framework Autor: Rómel Tadeo Rodríguez González
 
-##Capturas de resultados
+## Capturas de resultados
 
 EjemploGrid: Se utilizaron herramientas como DataGridView para la visualización de los datos validados, ErrorProvider para indicar cuales cajas de texto poseen error
 <img width="920" height="560" alt="image" src="https://github.com/user-attachments/assets/435ac85f-02a9-4743-9e72-2267481b7b87" />
