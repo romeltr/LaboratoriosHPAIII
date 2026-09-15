@@ -15,6 +15,7 @@ Autor: Rómel Tadeo Rodríguez González
 ## Capturas de resultados
 
 EjemploWhile: El bucle while esta condicionado para recibir un total de 10 notas. Al hacer 10 iteraciones el programa culmina su tarea y atirmeticamente calcula el promedio.
+
 <img width="710" height="672" alt="image" src="https://github.com/user-attachments/assets/4ecb95f3-3388-40c4-9ed5-ed86e7549c2d" />
 
 EjemploWhile2: El bucle while esta condicionado para recibir un total de 10 notas, y parará si recibe el carácter "-1" especificamente. Por consecuente dicta la cantidad de notas insertadas y calcula el promedio.
