@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\romel\\source\\repos\\EjemploWhile2\\EjemploWhile2\\EjemploWhile2.csproj": {}
+    "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Libreta de calificaciones\\EjemploWhile2\\EjemploWhile2\\EjemploWhile2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\romel\\source\\repos\\EjemploWhile2\\EjemploWhile2\\EjemploWhile2.csproj": {
+    "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Libreta de calificaciones\\EjemploWhile2\\EjemploWhile2\\EjemploWhile2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romel\\source\\repos\\EjemploWhile2\\EjemploWhile2\\EjemploWhile2.csproj",
+        "projectUniqueName": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Libreta de calificaciones\\EjemploWhile2\\EjemploWhile2\\EjemploWhile2.csproj",
         "projectName": "EjemploWhile2",
-        "projectPath": "C:\\Users\\romel\\source\\repos\\EjemploWhile2\\EjemploWhile2\\EjemploWhile2.csproj",
+        "projectPath": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Libreta de calificaciones\\EjemploWhile2\\EjemploWhile2\\EjemploWhile2.csproj",
         "packagesPath": "C:\\Users\\romel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romel\\source\\repos\\EjemploWhile2\\EjemploWhile2\\obj\\",
+        "outputPath": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Libreta de calificaciones\\EjemploWhile2\\EjemploWhile2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\romel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

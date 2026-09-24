@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\romel\\source\\repos\\FormsActividad3\\",
+  "WorkspaceRootPath": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\FormsActividad3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFE07EF7-CAE8-4443-82B7-D911A805E874}|FormsActividad3\\FormsActividad3.csproj|c:\\users\\romel\\source\\repos\\formsactividad3\\formsactividad3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AFE07EF7-CAE8-4443-82B7-D911A805E874}|FormsActividad3\\FormsActividad3.csproj|c:\\users\\romel\\source\\repos\\romeltr\\laboratorioshpaiii\\laboratorio3  (validaciones y est\u00E1ticos)\\formsactividad3\\formsactividad3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE07EF7-CAE8-4443-82B7-D911A805E874}|FormsActividad3\\FormsActividad3.csproj|solutionrelative:formsactividad3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE07EF7-CAE8-4443-82B7-D911A805E874}|FormsActividad3\\FormsActividad3.csproj|C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\FormsActividad3\\formsactividad3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AFE07EF7-CAE8-4443-82B7-D911A805E874}|FormsActividad3\\FormsActividad3.csproj|solutionrelative:formsactividad3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFE07EF7-CAE8-4443-82B7-D911A805E874}|FormsActividad3\\FormsActividad3.csproj|c:\\users\\romel\\source\\repos\\formsactividad3\\formsactividad3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AFE07EF7-CAE8-4443-82B7-D911A805E874}|FormsActividad3\\FormsActividad3.csproj|C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\FormsActividad3\\formsactividad3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AFE07EF7-CAE8-4443-82B7-D911A805E874}|FormsActividad3\\FormsActividad3.csproj|solutionrelative:formsactividad3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE07EF7-CAE8-4443-82B7-D911A805E874}|FormsActividad3\\FormsActividad3.csproj|C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\FormsActividad3\\formsactividad3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE07EF7-CAE8-4443-82B7-D911A805E874}|FormsActividad3\\FormsActividad3.csproj|solutionrelative:formsactividad3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,35 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\FormsActividad3\\FormsActividad3\\Form2.cs",
-              "RelativeDocumentMoniker": "FormsActividad3\\Form2.cs",
-              "ToolTip": "C:\\Users\\romel\\source\\repos\\FormsActividad3\\FormsActividad3\\Form2.cs [Design]",
-              "RelativeToolTip": "FormsActividad3\\Form2.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T15:44:54.642Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\FormsActividad3\\FormsActividad3\\Form1.cs",
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\FormsActividad3\\FormsActividad3\\Form2.cs",
+              "RelativeDocumentMoniker": "FormsActividad3\\Form2.cs",
+              "ToolTip": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\FormsActividad3\\FormsActividad3\\Form2.cs [Design]",
+              "RelativeToolTip": "FormsActividad3\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T01:14:08.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\FormsActividad3\\FormsActividad3\\Form2.cs",
+              "RelativeDocumentMoniker": "FormsActividad3\\Form2.cs",
+              "ToolTip": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\FormsActividad3\\FormsActividad3\\Form2.cs",
+              "RelativeToolTip": "FormsActividad3\\Form2.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T00:54:31.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\FormsActividad3\\FormsActividad3\\Form1.cs",
               "RelativeDocumentMoniker": "FormsActividad3\\Form1.cs",
-              "ToolTip": "C:\\Users\\romel\\source\\repos\\FormsActividad3\\FormsActividad3\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\FormsActividad3\\FormsActividad3\\Form1.cs",
+              "RelativeToolTip": "FormsActividad3\\Form1.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwCAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T00:44:51.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\FormsActividad3\\FormsActividad3\\Form1.cs",
+              "RelativeDocumentMoniker": "FormsActividad3\\Form1.cs",
+              "ToolTip": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\FormsActividad3\\FormsActividad3\\Form1.cs [Design]",
               "RelativeToolTip": "FormsActividad3\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T15:44:33.338Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-08T15:44:33.338Z"
             }
           ]
         }

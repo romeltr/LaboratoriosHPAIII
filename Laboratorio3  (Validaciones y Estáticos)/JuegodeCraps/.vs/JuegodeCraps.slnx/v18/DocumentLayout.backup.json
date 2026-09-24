@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\romel\\source\\repos\\JuegodeCraps\\",
+  "WorkspaceRootPath": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\JuegodeCraps\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{528DC652-CA9F-445C-9130-FF75A43E4018}|JuegodeCraps\\JuegodeCraps.csproj|c:\\users\\romel\\source\\repos\\juegodecraps\\juegodecraps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{528DC652-CA9F-445C-9130-FF75A43E4018}|JuegodeCraps\\JuegodeCraps.csproj|solutionrelative:juegodecraps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9E7F755-6A48-5873-9441-013C7CCA41C6}|JuegodeCraps\\JuegodeCraps.csproj|c:\\users\\romel\\source\\repos\\romeltr\\laboratorioshpaiii\\laboratorio3  (validaciones y est\u00E1ticos)\\juegodecraps\\juegodecraps\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E7F755-6A48-5873-9441-013C7CCA41C6}|JuegodeCraps\\JuegodeCraps.csproj|solutionrelative:juegodecraps\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{528DC652-CA9F-445C-9130-FF75A43E4018}|JuegodeCraps\\JuegodeCraps.csproj|c:\\users\\romel\\source\\repos\\juegodecraps\\juegodecraps\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{528DC652-CA9F-445C-9130-FF75A43E4018}|JuegodeCraps\\JuegodeCraps.csproj|solutionrelative:juegodecraps\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9E7F755-6A48-5873-9441-013C7CCA41C6}|JuegodeCraps\\JuegodeCraps.csproj|c:\\users\\romel\\source\\repos\\romeltr\\laboratorioshpaiii\\laboratorio3  (validaciones y est\u00E1ticos)\\juegodecraps\\juegodecraps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E7F755-6A48-5873-9441-013C7CCA41C6}|JuegodeCraps\\JuegodeCraps.csproj|solutionrelative:juegodecraps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\JuegodeCraps\\JuegodeCraps\\Class1.cs",
+              "RelativeDocumentMoniker": "JuegodeCraps\\Class1.cs",
+              "ToolTip": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\JuegodeCraps\\JuegodeCraps\\Class1.cs",
+              "RelativeToolTip": "JuegodeCraps\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T21:00:01.398Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\JuegodeCraps\\JuegodeCraps\\Class1.cs",
-              "RelativeDocumentMoniker": "JuegodeCraps\\Class1.cs",
-              "ToolTip": "C:\\Users\\romel\\source\\repos\\JuegodeCraps\\JuegodeCraps\\Class1.cs",
-              "RelativeToolTip": "JuegodeCraps\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T21:00:01.398Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\JuegodeCraps\\JuegodeCraps\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\JuegodeCraps\\JuegodeCraps\\Program.cs",
               "RelativeDocumentMoniker": "JuegodeCraps\\Program.cs",
-              "ToolTip": "C:\\Users\\romel\\source\\repos\\JuegodeCraps\\JuegodeCraps\\Program.cs",
+              "ToolTip": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Laboratorio3  (Validaciones y Est\u00E1ticos)\\JuegodeCraps\\JuegodeCraps\\Program.cs",
               "RelativeToolTip": "JuegodeCraps\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

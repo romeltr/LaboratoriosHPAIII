@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\romel\\source\\repos\\EjemploWhile\\EjemploWhile\\EjemploWhile.csproj",
+      "projectUniqueName": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Libreta de calificaciones\\EjemploWhile\\EjemploWhile\\EjemploWhile.csproj",
       "projectName": "EjemploWhile",
-      "projectPath": "C:\\Users\\romel\\source\\repos\\EjemploWhile\\EjemploWhile\\EjemploWhile.csproj",
+      "projectPath": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Libreta de calificaciones\\EjemploWhile\\EjemploWhile\\EjemploWhile.csproj",
       "packagesPath": "C:\\Users\\romel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\romel\\source\\repos\\EjemploWhile\\EjemploWhile\\obj\\",
+      "outputPath": "C:\\Users\\romel\\source\\repos\\romeltr\\LaboratoriosHPAIII\\Libreta de calificaciones\\EjemploWhile\\EjemploWhile\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\romel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

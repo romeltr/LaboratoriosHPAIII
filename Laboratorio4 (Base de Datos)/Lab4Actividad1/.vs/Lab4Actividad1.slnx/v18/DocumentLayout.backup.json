@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\romel\\source\\repos\\Lab4Actividad1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE5B1D3-B437-446A-A7F7-7FBA8206D50E}|Lab4Actividad1\\Lab4Actividad1.csproj|c:\\users\\romel\\source\\repos\\lab4actividad1\\lab4actividad1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE5B1D3-B437-446A-A7F7-7FBA8206D50E}|Lab4Actividad1\\Lab4Actividad1.csproj|solutionrelative:lab4actividad1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE5B1D3-B437-446A-A7F7-7FBA8206D50E}|Lab4Actividad1\\Lab4Actividad1.csproj|C:\\Users\\romel\\source\\repos\\Lab4Actividad1\\lab4actividad1\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE5B1D3-B437-446A-A7F7-7FBA8206D50E}|Lab4Actividad1\\Lab4Actividad1.csproj|solutionrelative:lab4actividad1\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE5B1D3-B437-446A-A7F7-7FBA8206D50E}|Lab4Actividad1\\Lab4Actividad1.csproj|C:\\Users\\romel\\source\\repos\\Lab4Actividad1\\lab4actividad1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7AE5B1D3-B437-446A-A7F7-7FBA8206D50E}|Lab4Actividad1\\Lab4Actividad1.csproj|solutionrelative:lab4actividad1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE5B1D3-B437-446A-A7F7-7FBA8206D50E}|Lab4Actividad1\\Lab4Actividad1.csproj|C:\\Users\\romel\\source\\repos\\Lab4Actividad1\\lab4actividad1\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE5B1D3-B437-446A-A7F7-7FBA8206D50E}|Lab4Actividad1\\Lab4Actividad1.csproj|solutionrelative:lab4actividad1\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\Lab4Actividad1\\Lab4Actividad1\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab4Actividad1\\Form1.cs",
+              "ToolTip": "C:\\Users\\romel\\source\\repos\\Lab4Actividad1\\Lab4Actividad1\\Form1.cs",
+              "RelativeToolTip": "Lab4Actividad1\\Form1.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAqwOIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T15:31:14.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\Lab4Actividad1\\Lab4Actividad1\\Conexion.cs",
+              "RelativeDocumentMoniker": "Lab4Actividad1\\Conexion.cs",
+              "ToolTip": "C:\\Users\\romel\\source\\repos\\Lab4Actividad1\\Lab4Actividad1\\Conexion.cs*",
+              "RelativeToolTip": "Lab4Actividad1\\Conexion.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T16:30:06.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\Lab4Actividad1\\Lab4Actividad1\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab4Actividad1\\Form1.cs",
+              "ToolTip": "C:\\Users\\romel\\source\\repos\\Lab4Actividad1\\Lab4Actividad1\\Form1.cs [Design]",
+              "RelativeToolTip": "Lab4Actividad1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T15:23:51.112Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\Lab4Actividad1\\Lab4Actividad1\\Producto.cs",
+              "RelativeDocumentMoniker": "Lab4Actividad1\\Producto.cs",
+              "ToolTip": "C:\\Users\\romel\\source\\repos\\Lab4Actividad1\\Lab4Actividad1\\Producto.cs",
+              "RelativeToolTip": "Lab4Actividad1\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T16:23:14.799Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
