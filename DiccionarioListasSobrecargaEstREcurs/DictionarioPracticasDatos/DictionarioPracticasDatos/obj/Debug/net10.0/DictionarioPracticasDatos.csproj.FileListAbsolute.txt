@@ -1,0 +1,15 @@
+C:\Users\romel\source\repos\DictionarioPracticasDatos\DictionarioPracticasDatos\bin\Debug\net10.0\DictionarioPracticasDatos.exe
+C:\Users\romel\source\repos\DictionarioPracticasDatos\DictionarioPracticasDatos\bin\Debug\net10.0\DictionarioPracticasDatos.deps.json
+C:\Users\romel\source\repos\DictionarioPracticasDatos\DictionarioPracticasDatos\bin\Debug\net10.0\DictionarioPracticasDatos.runtimeconfig.json
+C:\Users\romel\source\repos\DictionarioPracticasDatos\DictionarioPracticasDatos\bin\Debug\net10.0\DictionarioPracticasDatos.dll
+C:\Users\romel\source\repos\DictionarioPracticasDatos\DictionarioPracticasDatos\bin\Debug\net10.0\DictionarioPracticasDatos.pdb
+C:\Users\romel\source\repos\DictionarioPracticasDatos\DictionarioPracticasDatos\obj\Debug\net10.0\DictionarioPracticasDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romel\source\repos\DictionarioPracticasDatos\DictionarioPracticasDatos\obj\Debug\net10.0\DictionarioPracticasDatos.AssemblyInfoInputs.cache
+C:\Users\romel\source\repos\DictionarioPracticasDatos\DictionarioPracticasDatos\obj\Debug\net10.0\DictionarioPracticasDatos.AssemblyInfo.cs
+C:\Users\romel\source\repos\DictionarioPracticasDatos\DictionarioPracticasDatos\obj\Debug\net10.0\DictionarioPracticasDatos.csproj.CoreCompileInputs.cache
+C:\Users\romel\source\repos\DictionarioPracticasDatos\DictionarioPracticasDatos\obj\Debug\net10.0\DictionarioPracticasDatos.dll
+C:\Users\romel\source\repos\DictionarioPracticasDatos\DictionarioPracticasDatos\obj\Debug\net10.0\refint\DictionarioPracticasDatos.dll
+C:\Users\romel\source\repos\DictionarioPracticasDatos\DictionarioPracticasDatos\obj\Debug\net10.0\DictionarioPracticasDatos.pdb
+C:\Users\romel\source\repos\DictionarioPracticasDatos\DictionarioPracticasDatos\obj\Debug\net10.0\DictionarioPracticasDatos.genruntimeconfig.cache
+C:\Users\romel\source\repos\DictionarioPracticasDatos\DictionarioPracticasDatos\obj\Debug\net10.0\ref\DictionarioPracticasDatos.dll
+C:\Users\romel\source\repos\DictionarioPracticasDatos\DictionarioPracticasDatos\obj\Debug\net10.0\Dictiona.DFDB8C1F.Up2Date
