@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lab2Actividad2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+030941ce0c5fefcdf21c0cca0b5933db4d09b044")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+459a91a507bc14cfe8a7ce0637de52095fbf1fa9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lab2Actividad2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lab2Actividad2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
