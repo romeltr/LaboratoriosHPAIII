@@ -55,6 +55,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.fInsercion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fModificacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -110,7 +112,9 @@
             this.Nombre,
             this.Precio,
             this.Cantidad,
-            this.Imagen});
+            this.Imagen,
+            this.fInsercion,
+            this.fModificacion});
             this.dataGridView1.Location = new System.Drawing.Point(12, 276);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -196,6 +200,7 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "Salida";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -208,6 +213,7 @@
             this.button3.TabIndex = 4;
             this.button3.Text = "Eliminar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -304,6 +310,20 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // fInsercion
+            // 
+            this.fInsercion.HeaderText = "Insercion";
+            this.fInsercion.MinimumWidth = 6;
+            this.fInsercion.Name = "fInsercion";
+            this.fInsercion.Width = 125;
+            // 
+            // fModificacion
+            // 
+            this.fModificacion.HeaderText = "Modificado el";
+            this.fModificacion.MinimumWidth = 6;
+            this.fModificacion.Name = "fModificacion";
+            this.fModificacion.Width = 125;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -354,7 +374,6 @@
         private System.Windows.Forms.ImageList imageList2;
         private System.Windows.Forms.PictureBox pictureBox1;
 
-        private System.Windows.Forms.DataGridView dgvProductos;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
@@ -368,6 +387,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fInsercion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fModificacion;
     }
 }
 

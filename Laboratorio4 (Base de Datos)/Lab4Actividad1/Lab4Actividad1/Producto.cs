@@ -15,5 +15,9 @@ namespace Lab4Actividad1
         public int Cantidad { get; set; }
         public byte[] Imagen { get; set; }  
 
+        public DateTime fInsercion { get; set; }
+
+        public DateTime fModificacion { get; set; }
+
     }
 }

@@ -33,7 +33,7 @@ namespace Lab4Actividad1
         public static List<Producto> GetProductos(string filtro)
         {
             List<Producto> listaProductos = new List<Producto>();
-            string query = "SELECT id, nombre, precio, cantidad, imagen FROM productos";
+            string query = "SELECT id, nombre, precio, cantidad, imagen, fecha_creacion, fecha_modificacion FROM productos";
             // Si viene un filtro, modificamos el query de forma segura
             // (Nota: idealmente con parámetros, pero adaptado al ejemplo visual que tienes)
             if (!string.IsNullOrEmpty(filtro))
@@ -69,6 +69,8 @@ namespace Lab4Actividad1
                             prod.Imagen = mReader["imagen"] != DBNull.Value ? (byte[])mReader["imagen"] : null;
                             // Agregamos el objeto listo a la lista genérica
                             listaProductos.Add(prod);
+                            prod.fInsercion = Convert.ToDateTime(mReader["fecha_creacion"]);
+                            prod.fModificacion = Convert.ToDateTime(mReader["fecha_modificacion"]);
                         }
                         mReader.Close();
                     }//MySqlDataReader
@@ -158,6 +160,29 @@ namespace Lab4Actividad1
             throw new NotImplementedException();
         }
 
+        public static bool DeleteSeguro(string tabla, string campoId, int id)
+        {
+            try
+            {
+                // Usa aquí la misma cadena/forma de conexión que tus otros métodos
+                using (MySqlConnection cn = new MySqlConnection(cadenaConexion))
+                {
+                    cn.Open();
+                    string sql = "DELETE FROM " + tabla + " WHERE " + campoId + " = @id";
+
+                    using (MySqlCommand cmd = new MySqlCommand(sql, cn))
+                    {
+                        cmd.Parameters.AddWithValue("@id", id);
+                        return cmd.ExecuteNonQuery() > 0;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al eliminar: " + ex.Message);
+                return false;
+            }
+        }
 
     }
 

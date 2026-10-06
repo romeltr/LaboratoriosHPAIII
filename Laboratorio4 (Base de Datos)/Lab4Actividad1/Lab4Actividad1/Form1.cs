@@ -1,17 +1,18 @@
-﻿using System;
+﻿using Lab4Actividad1;
+using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
-using Lab4Actividad1;
-using System.Drawing.Imaging;
+
 
 
 namespace Lab4Actividad1
@@ -20,12 +21,9 @@ namespace Lab4Actividad1
     {
         int idProducto;
         bool todoOk = true;
-        List<(TextBox txt, IValidatorCampo validador)> camposValidar = new();
+        List<(TextBox txt, IValidatorCampo validador)> camposValidar = new List<(TextBox txt, IValidatorCampo validador)>();
         private List<Producto> listaProductos;
         private Dictionary<string, object> myProducto = new Dictionary<string, object>();
-
-        // Id del producto seleccionado en el grid (0 = ninguno seleccionado)
-        
 
         public Form1()
         {
@@ -77,7 +75,7 @@ namespace Lab4Actividad1
         {
             if (!DatosCorrectos())
             {
-                return; // No vamos hacer nada - se detine en este punto, puedes crear un punto de interrupcíon
+                return;
             }
 
             CargarDatosProductos();
@@ -85,41 +83,34 @@ namespace Lab4Actividad1
             if (Conexion.InsertSeguro("productos", myProducto))
             {
                 MessageBox.Show("Se ha guardado satisfactoriamente el registro");
-                // Aquí refrescas el grid volviendo a consultar la base de datos
                 cargarProductos();
                 limpiarCampos();
-            }//fin del if InsertSeguro
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // Permite cambiar la imagen haciendo clic directamente sobre el PictureBox
+            pictureBox1.Cursor = Cursors.Hand;
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+
             cargarProductos();
         }
 
         private void cargarProductos(string filtro = "")
         {
-            dataGridView1.Rows.Clear(); // "NombredelDataGRidView.Rows.Clear()"
+            dataGridView1.Rows.Clear();
             dataGridView1.Refresh();
             listaProductos = Conexion.GetProductos(filtro);
 
             foreach (var prod in listaProductos)
             {
-                Image img = null;
+                // byte[] -> Bitmap con el método estático
+                Image img = ImagenUtil.BytesABitmap(prod.Imagen);
 
-                if (prod.Imagen != null && prod.Imagen.Length > 0)
-                {
-                    using (MemoryStream ms = new MemoryStream(prod.Imagen))
-                    {
-                        using (Bitmap bmp = new Bitmap(ms))
-                        {
-                            img = new Bitmap(bmp); //Esto clona la imagen y evita que falle
-                        }
-                    }
-                }
-
-                dataGridView1.Rows.Add(prod.Id, prod.Nombre, prod.Precio, prod.Cantidad, img);
-            }//Fin del foreach listProductos
-        }//fin de cargarProductosa
+                dataGridView1.Rows.Add(prod.Id, prod.Nombre, prod.Precio, prod.Cantidad, img, prod.fInsercion, prod.fModificacion);
+            }
+        }
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -134,33 +125,21 @@ namespace Lab4Actividad1
 
             if (pictureBox1.Image != null)
             {
-                // Convierte la imagen en un arreglo de bytes
-                myProducto["imagen"] = ImageToByteArray(pictureBox1.Image);
+                // Imagen -> byte[] con el método estático
+                myProducto["imagen"] = ImagenUtil.ImagenABytes(pictureBox1.Image);
             }
             else
             {
-                // DBNull.Value en lugar de null, para que el parámetro SQL se envíe como NULL
+                // DBNull.Value para que el parámetro SQL se envíe como NULL
                 myProducto["imagen"] = DBNull.Value;
-            }
-        }
-
-        private byte[] ImageToByteArray(Image image)
-        {
-            if (image == null)
-                return null;
-
-            using (MemoryStream mMemoryStream = new MemoryStream())
-            {
-                image.Save(mMemoryStream, ImageFormat.Png);
-                return mMemoryStream.ToArray();
             }
         }
 
         private bool DatosCorrectos()
         {
-            //Levantamos lista (txt, validador)
-            //el otro parámetro recibe un método
-            //de las clases que implementan la interface
+            // Se limpia la lista para que los validadores no se dupliquen en cada llamada
+            camposValidar.Clear();
+            todoOk = true;
 
             camposValidar.Add((txtNombre, new ValidatorTexto()));
             camposValidar.Add((txtPrecio, new ValidadorDecimal()));
@@ -168,7 +147,6 @@ namespace Lab4Actividad1
 
             foreach (var item in camposValidar)
             {
-
                 if (!item.validador.EsValido(item.txt.Text))
                 {
                     errorProvider1.SetError(item.txt, item.validador.MensajeError);
@@ -178,46 +156,67 @@ namespace Lab4Actividad1
                 else
                 {
                     errorProvider1.SetError(item.txt, string.Empty);
-                    todoOk = true;
-                }
-
-            }//fin del for
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            using (OpenFileDialog openFileDialog = new OpenFileDialog())
-            {
-                openFileDialog.Title = "Seleccionar imagen del producto";
-                openFileDialog.Filter = "Archivos de imagen|*.jpg;*.jpeg;*.png;*.bmp";
-
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    // Carga la imagen seleccionada en el PictureBox y ajusta su tamaño
-                    pictureBox1.Image = Image.FromFile(openFileDialog.FileName);
-                    pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
                 }
             }
+            return todoOk;
+        }
+
+        // Selección desde directorio, centralizada en un solo método
+        private void SeleccionarImagenProducto()
+        {
+            Bitmap nueva = ImagenUtil.SeleccionarImagen();
+
+            if (nueva != null)
+            {
+                pictureBox1.Image = nueva;
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+        }
+
+        // Botón/PictureBox auxiliar
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            SeleccionarImagenProducto();
+        }
+
+        // Clic directo sobre la imagen del producto
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            SeleccionarImagenProducto();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e) //TXTBusqueda
         {
-            //Funcion que permite filtrar los productos en el DataGridView a medida que el usuario escribe en el TextBox de búsqueda
             cargarProductos(textBox1.Text.Trim());
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void ModificarDatosBD()
         {
+            if (idProducto == 0)
+            {
+                MessageBox.Show("Seleccione un producto de la tabla para modificarlo");
+                return;
+            }
 
+            if (!DatosCorrectos())
+            {
+                return;
+            }
+
+            CargarDatosProductos();
+
+            bool resultado = Conexion.UpdateSeguro("productos", myProducto, "id", idProducto);
+
+            if (resultado)
+            {
+                MessageBox.Show("Se ha actualizado satisfactoriamente el registro");
+                cargarProductos(textBox1.Text.Trim());
+            }
         }
-
-        
-
-        private void ModificarDatosBD() { throw new NotImplementedException(); }
 
         private void bttnLimpiar_Click(object sender, EventArgs e)
         {
             limpiarCampos();
-            //button2_Click.Enabled = false; // Deshabilita el botón de modificar 
         }
 
         private void limpiarCampos()
@@ -226,11 +225,46 @@ namespace Lab4Actividad1
             txtPrecio.Text = "";
             txtCantidad.Text = "";
             pictureBox1.Image = null;
-            idProducto = 0; // Reinicia el id del producto seleccionado
+            idProducto = 0;
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (idProducto == 0)
+            {
+                MessageBox.Show("Seleccione un producto de la tabla para eliminarlo");
+                return;
+            }
 
+            DialogResult confirmar = MessageBox.Show(
+                "¿Está seguro de que desea eliminar el producto \"" + txtNombre.Text + "\"?",
+                "Confirmar eliminación",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning);
 
-        
+            if (confirmar != DialogResult.Yes)
+                return;
+
+            if (Conexion.DeleteSeguro("productos", "id", idProducto))
+            {
+                MessageBox.Show("Se ha eliminado satisfactoriamente el registro");
+                limpiarCampos();
+                cargarProductos(textBox1.Text.Trim());
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            DialogResult salir = MessageBox.Show(
+                "¿Desea salir del programa?",
+                "Salir",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+
+            if (salir == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

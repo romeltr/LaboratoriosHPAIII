@@ -68,5 +68,27 @@ namespace Lab4Actividad1
         }//Fin del método EsValido
     }
 
+    public class ValidadorUsuario : IValidatorCampo
+    {
+        public string MensajeError { get; private set; }
+
+        public bool EsValido(string valor)
+        {
+            valor = (valor ?? "").Trim();
+
+            if (valor.Length < 4 || valor.Length > 50)
+            {
+                MensajeError = "El usuario debe tener entre 4 y 50 caracteres";
+                return false;
+            }
+            if (!valor.All(c => char.IsLetterOrDigit(c) || c == '_'))
+            {
+                MensajeError = "Solo se permiten letras, números y guion bajo";
+                return false;
+            }
+            return true;
+        }
+    }
+
 
 }
