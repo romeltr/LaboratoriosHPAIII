@@ -1,4 +1,4 @@
-# 🔎 Laboratorio #_
+# 🔎 Parcial #2
 
 **🗓️ Fecha:** 05/11/2026
 
@@ -122,16 +122,17 @@ O bien descarga el repositorio como ZIP desde GitHub (**Code → Download ZIP**)
 
 ### Form1 (Inicio de sesión): Solicita usuario y contraseña; la contraseña ingresada se hashea y se compara con la almacenada en la base de datos.
 
-<img width="" height="" alt="image" src="" />
+<img width="443" height="468" alt="image" src="https://github.com/user-attachments/assets/379cca22-fc3c-46ad-85b4-39c40c588c1b" />
 
 ### FrmRegistro (Registro de usuario): Valida la política de contraseña, la hashea desde la capa de negocio y la guarda mediante la capa de datos.
 
-<img width="" height="" alt="image" src="" />
+<img width="471" height="606" alt="image" src="https://github.com/user-attachments/assets/5bcaf1ff-c4dc-41f3-9a15-2f9b85b60489" />
 
 ### frmPrincipal (Formulario principal): Barra lateral, botones con DataGridView, reloj y datos de la cuenta logueada.
 
-<img width="" height="" alt="image" src="" />
+<img width="1372" height="840" alt="image" src="https://github.com/user-attachments/assets/f14b1ca3-063d-4fb9-a0fc-e03473246af6" />
 
 ### Base de datos (tabla usuarios): La columna dsPassword almacena el hash, nunca la contraseña en texto plano.
 
-<img width="" height="" alt="image" src="" />
+<img width="1091" height="202" alt="image" src="https://github.com/user-attachments/assets/b89436fa-7049-4e7b-b0ee-b4a1e9606c3e" />
+
