@@ -143,3 +143,21 @@ El proyecto depende de `MySql.Data` 26.7.0 y de sus paquetes auxiliares (`Google
 **Base de datos en MySQL Workbench:** Tabla `productos` con los registros guardados.
 
 <img width="510" height="606" alt="image" src="https://github.com/user-attachments/assets/c8ed87d5-be83-4734-9ff5-fa70f699fb02" />
+
+**Inserción de registros:** Resultado del proceso programado "Registrar"
+
+<img width="732" height="782" alt="image" src="https://github.com/user-attachments/assets/cd0ee032-232f-4259-a5b6-b62cd41e5b8d" />
+
+**Modificar registro:** Resultado del proceso programado "Modificar"
+
+<img width="652" height="315" alt="image" src="https://github.com/user-attachments/assets/f4755386-87d5-4a2c-bfec-150fd4023d52" />
+<img width="1002" height="791" alt="image" src="https://github.com/user-attachments/assets/a97c51f5-5bc0-45fd-aded-adf4a7c04629" />
+
+**Eliminar registro:** Resultado del proceso programado "Eliminar"
+
+<img width="986" height="782" alt="image" src="https://github.com/user-attachments/assets/ec565f2a-7971-4458-a68b-88010c24bc9d" />
+<img width="987" height="785" alt="image" src="https://github.com/user-attachments/assets/aed722bf-0a34-410e-8b0a-13f4c84d3093" />
+<img width="990" height="287" alt="image" src="https://github.com/user-attachments/assets/2b10262f-7934-4d20-825f-a281e5d9ef58" />
+
+
+
