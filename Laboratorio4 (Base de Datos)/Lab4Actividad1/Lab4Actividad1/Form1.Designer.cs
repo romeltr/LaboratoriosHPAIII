@@ -40,6 +40,8 @@
             this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Imagen = new System.Windows.Forms.DataGridViewImageColumn();
+            this.fInsercion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fModificacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.bttnLimpiar = new System.Windows.Forms.Button();
@@ -55,8 +57,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.fInsercion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fModificacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -159,6 +160,20 @@
             this.Imagen.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.Imagen.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.Imagen.Width = 125;
+            // 
+            // fInsercion
+            // 
+            this.fInsercion.HeaderText = "Insercion";
+            this.fInsercion.MinimumWidth = 6;
+            this.fInsercion.Name = "fInsercion";
+            this.fInsercion.Width = 125;
+            // 
+            // fModificacion
+            // 
+            this.fModificacion.HeaderText = "Modificado el";
+            this.fModificacion.MinimumWidth = 6;
+            this.fModificacion.Name = "fModificacion";
+            this.fModificacion.Width = 125;
             // 
             // imageList1
             // 
@@ -310,19 +325,17 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // fInsercion
+            // label5
             // 
-            this.fInsercion.HeaderText = "Insercion";
-            this.fInsercion.MinimumWidth = 6;
-            this.fInsercion.Name = "fInsercion";
-            this.fInsercion.Width = 125;
-            // 
-            // fModificacion
-            // 
-            this.fModificacion.HeaderText = "Modificado el";
-            this.fModificacion.MinimumWidth = 6;
-            this.fModificacion.Name = "fModificacion";
-            this.fModificacion.Width = 125;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label5.Location = new System.Drawing.Point(518, 130);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(68, 22);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Imagen";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // Form1
             // 
@@ -330,6 +343,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1065, 746);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label4);
@@ -346,7 +360,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "CRUD DE PRODUCTOS";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -389,6 +403,7 @@
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.DataGridViewTextBoxColumn fInsercion;
         private System.Windows.Forms.DataGridViewTextBoxColumn fModificacion;
+        private System.Windows.Forms.Label label5;
     }
 }
 

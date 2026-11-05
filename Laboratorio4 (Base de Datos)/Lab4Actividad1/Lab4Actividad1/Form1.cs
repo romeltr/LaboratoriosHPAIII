@@ -266,5 +266,10 @@ namespace Lab4Actividad1
                 Application.Exit();
             }
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
