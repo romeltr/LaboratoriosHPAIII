@@ -5,16 +5,15 @@ using MySql.Data.MySqlClient;
 
 namespace Datos
 {
-    /// <summary>
     /// Acceso a datos de la entidad usuario. Solo habla con MySQL mediante
-    /// procedimientos almacenados; NO hashea ni valida contrasenas (eso es de Negocios).
-    /// </summary>
+    /// procedimientos almacenados;
+   
     public class D_Usuario : D_Conexion
     {
-        /// <summary>
+        
         /// Devuelve el usuario ACTIVO con ese nombre, incluyendo su hash en dsPassword,
         /// o null si no existe / esta inactivo. La verificacion la hace la capa de negocio.
-        /// </summary>
+        
         public static E_Usuario ObtenerParaLogin(string dsUsuario)
         {
             using (MySqlConnection conexion = new MySqlConnection(cadenaConexion))
@@ -48,10 +47,11 @@ namespace Datos
             }
         }
 
-        /// <summary>
-        /// Inserta el usuario con el hash YA calculado.
+       /// LLAMADO DE PROCEDIMIENTOS ALMACENADOS PARA DISTINTAS FUNCIONES EN EL CRUD ///
+       
+        /// Inserta el usuario con el hash ya calculado.
         /// codigo: 0 ok, 1 usuario/cuenta repetido, 3 departamento inexistente, 4 datos vacios, 99 error.
-        /// </summary>
+        
         public static void Registrar(string dsId, string dsUsuario, string dsPasswordHash,
                                      int? idDepartamento, out int codigo, out int idNuevo)
         {
@@ -82,7 +82,7 @@ namespace Datos
             }
         }
 
-        /// <summary>Lista de departamentos (id, dsDepartamento) para el combo del registro.</summary>
+        /// Lista de departamentos (id, dsDepartamento) para el combo del registro.
         public static DataTable ListarDepartamentos()
         {
             using (MySqlConnection conexion = new MySqlConnection(cadenaConexion))
@@ -98,7 +98,7 @@ namespace Datos
             }
         }
 
-        /// <summary>Usuarios para el DataGridView (nunca incluye el hash). filtro vacio = todos.</summary>
+        /// Usuarios para el DataGridView (nunca incluye el hash). filtro vacio = todos.
         public static DataTable ListarUsuarios(string filtro)
         {
             using (MySqlConnection conexion = new MySqlConnection(cadenaConexion))
@@ -115,7 +115,7 @@ namespace Datos
             }
         }
 
-        /// <summary>Activa ('1') o desactiva ('0') un usuario. codigo: 0 ok, 1 no existe, 2 estado invalido.</summary>
+        /// Activa ('1') o desactiva ('0') un usuario. codigo: 0 ok, 1 no existe, 2 estado invalido.
         public static int CambiarEstado(int idUsuario, char estado, string modificadoPor)
         {
             using (MySqlConnection conexion = new MySqlConnection(cadenaConexion))
@@ -136,7 +136,7 @@ namespace Datos
             }
         }
 
-        /// <summary>Cantidad total de usuarios y cantidad de usuarios activos (para las tarjetas del form principal).</summary>
+        /// Cantidad total de usuarios y cantidad de usuarios activos (para las tarjetas del form principal).
         public static void ObtenerResumen(out int total, out int activos)
         {
             total = 0;
