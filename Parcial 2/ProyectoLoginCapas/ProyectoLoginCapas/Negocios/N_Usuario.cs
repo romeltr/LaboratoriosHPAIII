@@ -5,10 +5,9 @@ using Entidades;
 
 namespace Negocios
 {
-    /// <summary>
     /// Reglas de negocio de la entidad usuario: politica de contrasena, hash en el
     /// registro y verificacion en el login. Los forms solo llaman a esta clase.
-    /// </summary>
+    
     public class N_Usuario
     {
         private readonly IHashService _hash;
@@ -25,10 +24,9 @@ namespace Negocios
         }
 
         // ------------------------------------------------------------ LOGIN
-        /// <summary>
         /// Devuelve el usuario si el texto plano ingresado produce el mismo hash que el
         /// guardado en la BD; si no (usuario inexistente, inactivo o clave distinta) devuelve null.
-        /// </summary>
+        
         public E_Usuario Login(string strUsuario, string strPassword)
         {
             strUsuario = (strUsuario ?? "").Trim();
@@ -45,10 +43,9 @@ namespace Negocios
         }
 
         // --------------------------------------------------------- REGISTRO
-        /// <summary>
-        /// Valida, hashea la contrasena y registra al usuario.
+        /// Valida, hashea la contraseña y registra al usuario.
         /// Devuelve true si se registro; "mensaje" explica el resultado en ambos casos.
-        /// </summary>
+        
         public bool Registrar(string dsId, string dsUsuario, string password, string confirmacion,
                               int? idDepartamento, out string mensaje)
         {
@@ -104,10 +101,9 @@ namespace Negocios
             }
         }
 
-        /// <summary>
+        
         /// Politica de contrasena: minimo 8 caracteres, sin espacios, con mayuscula,
         /// minuscula y numero, y distinta del nombre de usuario. Devuelve null si es valida.
-        /// </summary>
         public static string ValidarPassword(string password, string dsUsuario)
         {
             if (string.IsNullOrEmpty(password))
@@ -143,7 +139,7 @@ namespace Negocios
             return D_Usuario.ListarDepartamentos();
         }
 
-        /// <summary>Total de usuarios y total de usuarios activos.</summary>
+        /// Total de usuarios y total de usuarios activos.
         public void ObtenerResumen(out int total, out int activos)
         {
             D_Usuario.ObtenerResumen(out total, out activos);
@@ -154,7 +150,7 @@ namespace Negocios
             return D_Usuario.ListarUsuarios(filtro);
         }
 
-        /// <summary>Activa o desactiva un usuario. Un usuario no puede desactivarse a si mismo.</summary>
+        /// Activa o desactiva un usuario. Un usuario no puede desactivarse a si mismo.
         public bool CambiarEstado(int idUsuario, bool activar, E_Usuario usuarioActual, out string mensaje)
         {
             if (usuarioActual == null)
