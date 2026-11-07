@@ -7,16 +7,16 @@ using Negocios;
 
 namespace Forms
 {
-   
+    /// <summary>
     /// Formulario principal: barra lateral (boton de 3 rayitas), botones que actuan sobre el
     /// DataGridView de usuarios, reloj con fecha y hora, y datos de la cuenta logueada.
-
+    /// </summary>
     public partial class frmPrincipal : Form
     {
         private readonly N_Usuario _negocio = new N_Usuario();
         private readonly E_Usuario _usuario;
 
-        ///true si se cerro con "Cerrar sesion" (volver al login); false si se salio de la aplicacion.
+        /// <summary>true si se cerro con "Cerrar sesion" (volver al login); false si se salio de la aplicacion.</summary>
         public bool CerrarSesion { get; private set; }
 
         public frmPrincipal(E_Usuario usuario)
@@ -180,6 +180,7 @@ namespace Forms
                 }
 
                 lblConteo.Text = tabla.Rows.Count + " usuario(s)";
+                ActualizarSumario();
             }
             catch (Exception ex)
             {
@@ -188,9 +189,13 @@ namespace Forms
             }
         }
 
-        private void dgvUsuarios_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        /// <summary>Actualiza las tarjetas: cantidad de empleados y cantidad de empleados activos.</summary>
+        private void ActualizarSumario()
         {
-
+            int total, activos;
+            _negocio.ObtenerResumen(out total, out activos);
+            lblCantEmpleados.Text = total.ToString("N0");
+            lblCantActivos.Text = activos.ToString("N0");
         }
     }
 }

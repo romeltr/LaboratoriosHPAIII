@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Laboratorio4 (Base de Datos)",
     "\\Laboratorio4 (Base de Datos)\\Lab4Actividad1",
-    "\\Laboratorio4 (Base de Datos)\\Lab4Actividad1\\Lab4Actividad1"
+    "\\Laboratorio4 (Base de Datos)\\Lab4Actividad1\\Lab4Actividad1",
+    "\\Parcial 2",
+    "\\Parcial 2\\ProyectoLoginCapas",
+    "\\Parcial 2\\ProyectoLoginCapas\\ProyectoLoginCapas",
+    "\\Parcial 2\\ProyectoLoginCapas\\ProyectoLoginCapas\\Forms"
   ],
-  "SelectedNode": "\\Laboratorio4 (Base de Datos)\\Lab4Actividad1\\Lab4Actividad1\\Usuario.cs",
+  "SelectedNode": "\\Parcial 2\\ProyectoLoginCapas\\ProyectoLoginCapas\\Forms\\FrmRegistro.cs",
   "PreviewInSolutionExplorer": false
 }

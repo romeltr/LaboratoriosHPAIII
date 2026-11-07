@@ -78,7 +78,7 @@ namespace Negocios
                 return false;
             }
 
-            // Hasing de la contraseña antes de enviarla a la capa de datos.
+            // La contrasena se hashea AQUI (Negocios), antes de llegar a la capa de datos.
             string hash = _hash.HashPassword(password);
 
             int codigo, idNuevo;
@@ -104,9 +104,10 @@ namespace Negocios
             }
         }
 
+        /// <summary>
         /// Politica de contrasena: minimo 8 caracteres, sin espacios, con mayuscula,
         /// minuscula y numero, y distinta del nombre de usuario. Devuelve null si es valida.
-
+        /// </summary>
         public static string ValidarPassword(string password, string dsUsuario)
         {
             if (string.IsNullOrEmpty(password))
@@ -136,10 +137,16 @@ namespace Negocios
             return null;
         }
 
-        //  DEPARTAMENTO
+        // ------------------------------------------- DEPARTAMENTOS / GRILLA
         public DataTable ListarDepartamentos()
         {
             return D_Usuario.ListarDepartamentos();
+        }
+
+        /// <summary>Total de usuarios y total de usuarios activos.</summary>
+        public void ObtenerResumen(out int total, out int activos)
+        {
+            D_Usuario.ObtenerResumen(out total, out activos);
         }
 
         public DataTable ListarUsuarios(string filtro)
@@ -147,7 +154,7 @@ namespace Negocios
             return D_Usuario.ListarUsuarios(filtro);
         }
 
-        /// Activa o desactiva un usuario. Un usuario no puede desactivarse a si mismo.
+        /// <summary>Activa o desactiva un usuario. Un usuario no puede desactivarse a si mismo.</summary>
         public bool CambiarEstado(int idUsuario, bool activar, E_Usuario usuarioActual, out string mensaje)
         {
             if (usuarioActual == null)

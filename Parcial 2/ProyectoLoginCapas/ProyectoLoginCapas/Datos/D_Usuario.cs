@@ -5,15 +5,16 @@ using MySql.Data.MySqlClient;
 
 namespace Datos
 {
-
-    /// Acceso a datos de la entidad usuario mediante procedimientos almacenados.
-   
+    /// <summary>
+    /// Acceso a datos de la entidad usuario. Solo habla con MySQL mediante
+    /// procedimientos almacenados; NO hashea ni valida contrasenas (eso es de Negocios).
+    /// </summary>
     public class D_Usuario : D_Conexion
     {
-   
+        /// <summary>
         /// Devuelve el usuario ACTIVO con ese nombre, incluyendo su hash en dsPassword,
         /// o null si no existe / esta inactivo. La verificacion la hace la capa de negocio.
-       
+        /// </summary>
         public static E_Usuario ObtenerParaLogin(string dsUsuario)
         {
             using (MySqlConnection conexion = new MySqlConnection(cadenaConexion))
@@ -47,9 +48,10 @@ namespace Datos
             }
         }
 
-        /// Inserta el usuario con el hash ya calculado.
+        /// <summary>
+        /// Inserta el usuario con el hash YA calculado.
         /// codigo: 0 ok, 1 usuario/cuenta repetido, 3 departamento inexistente, 4 datos vacios, 99 error.
-     
+        /// </summary>
         public static void Registrar(string dsId, string dsUsuario, string dsPasswordHash,
                                      int? idDepartamento, out int codigo, out int idNuevo)
         {
@@ -80,7 +82,7 @@ namespace Datos
             }
         }
 
-        /// Lista de departamentos (id, dsDepartamento) para el combo del registro.
+        /// <summary>Lista de departamentos (id, dsDepartamento) para el combo del registro.</summary>
         public static DataTable ListarDepartamentos()
         {
             using (MySqlConnection conexion = new MySqlConnection(cadenaConexion))
@@ -96,7 +98,7 @@ namespace Datos
             }
         }
 
-        /// Usuarios para el DataGridView (nunca incluye el hash). filtro vacio = todos.
+        /// <summary>Usuarios para el DataGridView (nunca incluye el hash). filtro vacio = todos.</summary>
         public static DataTable ListarUsuarios(string filtro)
         {
             using (MySqlConnection conexion = new MySqlConnection(cadenaConexion))
@@ -113,7 +115,7 @@ namespace Datos
             }
         }
 
-        /// Activa ('1') o desactiva ('0') un usuario. codigo: 0 ok, 1 no existe, 2 estado invalido.
+        /// <summary>Activa ('1') o desactiva ('0') un usuario. codigo: 0 ok, 1 no existe, 2 estado invalido.</summary>
         public static int CambiarEstado(int idUsuario, char estado, string modificadoPor)
         {
             using (MySqlConnection conexion = new MySqlConnection(cadenaConexion))
@@ -131,6 +133,29 @@ namespace Datos
                 conexion.Open();
                 cmd.ExecuteNonQuery();
                 return Convert.ToInt32(pCodigo.Value);
+            }
+        }
+
+        /// <summary>Cantidad total de usuarios y cantidad de usuarios activos (para las tarjetas del form principal).</summary>
+        public static void ObtenerResumen(out int total, out int activos)
+        {
+            total = 0;
+            activos = 0;
+
+            using (MySqlConnection conexion = new MySqlConnection(cadenaConexion))
+            using (MySqlCommand cmd = new MySqlCommand("sp_ResumenUsuarios", conexion))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                conexion.Open();
+
+                using (MySqlDataReader r = cmd.ExecuteReader())
+                {
+                    if (r.Read())
+                    {
+                        total = Convert.ToInt32(r["Total"]);
+                        activos = Convert.ToInt32(r["Activos"]);
+                    }
+                }
             }
         }
     }
