@@ -15,7 +15,7 @@ namespace Entidades
         public string dsPassword { get; set; }             // hash PBKDF2 (nunca texto plano)
         public char dsEstado { get; set; }                 // '1' activo, '0' inactivo
         public int? idDepartamento { get; set; }
-        public string dsDepartamento { get; set; }         // solo para mostrar (JOIN con departamento)
+        public string dsDepartamento { get; set; }         // Llave foránea con tabla departamento
         public string dsUsuarioCreacion { get; set; }
         public DateTime dtFechaCreacion { get; set; }
         public string dsUsuarioModificacion { get; set; }
