@@ -7,16 +7,15 @@ using Negocios;
 
 namespace Forms
 {
-    /// <summary>
-    /// Formulario principal: barra lateral (boton de 3 rayitas), botones que actuan sobre el
-    /// DataGridView de usuarios, reloj con fecha y hora, y datos de la cuenta logueada.
-    /// </summary>
+    ///Demostración de los datos presentes en la tabla de usuarios.
+    ///Aplicación de analisis de datos.
+
     public partial class frmPrincipal : Form
     {
         private readonly N_Usuario _negocio = new N_Usuario();
         private readonly E_Usuario _usuario;
 
-        /// <summary>true si se cerro con "Cerrar sesion" (volver al login); false si se salio de la aplicacion.</summary>
+        /// true si se cerro con "Cerrar sesion" (volver al login); false si se salio de la aplicacion.
         public bool CerrarSesion { get; private set; }
 
         public frmPrincipal(E_Usuario usuario)
@@ -189,7 +188,7 @@ namespace Forms
             }
         }
 
-        /// <summary>Actualiza las tarjetas: cantidad de empleados y cantidad de empleados activos.</summary>
+        /// Actualiza las tarjetas: cantidad de empleados y cantidad de empleados activos.
         private void ActualizarSumario()
         {
             int total, activos;
