@@ -1,0 +1,16 @@
+C:\Users\romel\source\repos\Act1\Act1\bin\Debug\net10.0\Act1.exe
+C:\Users\romel\source\repos\Act1\Act1\bin\Debug\net10.0\Act1.deps.json
+C:\Users\romel\source\repos\Act1\Act1\bin\Debug\net10.0\Act1.runtimeconfig.json
+C:\Users\romel\source\repos\Act1\Act1\bin\Debug\net10.0\Act1.runtimeconfig.dev.json
+C:\Users\romel\source\repos\Act1\Act1\bin\Debug\net10.0\Act1.dll
+C:\Users\romel\source\repos\Act1\Act1\bin\Debug\net10.0\Act1.pdb
+C:\Users\romel\source\repos\Act1\Act1\obj\Debug\net10.0\Act1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romel\source\repos\Act1\Act1\obj\Debug\net10.0\Act1.AssemblyInfoInputs.cache
+C:\Users\romel\source\repos\Act1\Act1\obj\Debug\net10.0\Act1.AssemblyInfo.cs
+C:\Users\romel\source\repos\Act1\Act1\obj\Debug\net10.0\Act1.csproj.CoreCompileInputs.cache
+C:\Users\romel\source\repos\Act1\Act1\obj\Debug\net10.0\Act1.dll
+C:\Users\romel\source\repos\Act1\Act1\obj\Debug\net10.0\refint\Act1.dll
+C:\Users\romel\source\repos\Act1\Act1\obj\Debug\net10.0\Act1.pdb
+C:\Users\romel\source\repos\Act1\Act1\obj\Debug\net10.0\Act1.genruntimeconfig.cache
+C:\Users\romel\source\repos\Act1\Act1\obj\Debug\net10.0\ref\Act1.dll
+C:\Users\romel\source\repos\Act1\Act1\obj\Debug\net10.0\Act1.csproj.Up2Date

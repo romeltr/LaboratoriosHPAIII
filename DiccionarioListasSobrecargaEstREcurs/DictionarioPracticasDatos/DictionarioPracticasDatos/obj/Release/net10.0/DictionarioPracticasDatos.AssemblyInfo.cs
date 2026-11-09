@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DictionarioPracticasDatos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0edfc953883d0c62bbea212e99a2b43012213740")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbb883bb4b5db2904d747642d6dc4fc63de13bca")]
 [assembly: System.Reflection.AssemblyProductAttribute("DictionarioPracticasDatos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DictionarioPracticasDatos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
