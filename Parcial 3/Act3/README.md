@@ -99,8 +99,14 @@ O bien descarga el repositorio como ZIP desde GitHub (**Code → Download ZIP**)
  
 ### Registro de usuario: Se ingresan nombre, usuario y contraseña; la contraseña se hashea con BCrypt y el hash se guarda en la tabla `usuarios`.
  
-<img width="500" alt="Captura del registro de usuario y la tabla usuarios con el hash" src="PEGAR-URL-DE-LA-CAPTURA-1">
+<img width="422" height="402" alt="image" src="https://github.com/user-attachments/assets/702224e1-9bdb-4518-9497-f59485294e69" />
+
 ### Inicio de sesión: La contraseña ingresada se verifica con `BCrypt.Verify()`, se muestra el nombre del usuario y el intento queda guardado en la tabla `intentos`.
  
-<img width="500" alt="Captura del inicio de sesión exitoso y la tabla intentos" src="PEGAR-URL-DE-LA-CAPTURA-2">
+<img width="433" height="421" alt="image" src="https://github.com/user-attachments/assets/b5b1c05b-9ae1-4a9b-a2b6-11e4dfb7140f" />
+
+
+<img width="396" height="331" alt="image" src="https://github.com/user-attachments/assets/4c8f9923-0501-4f13-90f6-617d2f8ae9bb" />
+
+
  
