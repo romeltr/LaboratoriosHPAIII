@@ -1,4 +1,4 @@
-# 🔎 Parcial #2 - Actividad #2 (Serialización JSON)
+# 🔎 Actividad #2 (Serialización JSON)
  
 **🗓️ Fecha:** 09/11/2026
  
